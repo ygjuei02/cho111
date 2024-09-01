@@ -18,23 +18,23 @@
                 "decryption":"none",
                 "fallbacks":[
                     {
-                        "dest":5001
+                        "dest":9001
                     },
                     {
                         "path":"/vless",
-                        "dest":5002
+                        "dest":9002
                     },
                     {
                         "path":"/vmess",
-                        "dest":5003
+                        "dest":9003
                     },
                     {
                         "path":"/trojan",
-                        "dest":5004
+                        "dest":9004
                     },
                     {
                         "path":"/shadowsocks",
-                        "dest":5005
+                        "dest":9005
                     }
                 ]
             },
@@ -43,7 +43,7 @@
             }
         },
         {
-            "port":5001,
+            "port":9001,
             "listen":"127.0.0.1",
             "protocol":"vless",
             "settings":{
@@ -60,7 +60,7 @@
             }
         },
         {
-            "port":5002,
+            "port":9002,
             "listen":"127.0.0.1",
             "protocol":"vless",
             "settings":{
@@ -90,7 +90,7 @@
             }
         },
         {
-            "port":5003,
+            "port":9003,
             "listen":"127.0.0.1",
             "protocol":"vmess",
             "settings":{
@@ -118,7 +118,7 @@
             }
         },
         {
-            "port":5004,
+            "port":9004,
             "listen":"127.0.0.1",
             "protocol":"trojan",
             "settings":{
@@ -146,7 +146,7 @@
             }
         },
         {
-            "port":5005,
+            "port":9005,
             "listen":"127.0.0.1",
             "protocol":"shadowsocks",
             "settings":{
